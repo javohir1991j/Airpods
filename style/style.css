@@ -1,0 +1,326 @@
+@import'fonts.css';
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat';
+}
+a{
+text-decoration: none;
+}
+.header__container{
+background: #282828;
+}
+.header{
+color: #FFFFFF;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+font-family: 'Montserrat';
+}
+.header__menu{
+display: flex;
+gap: 30px;
+align-items: center;
+padding: 6px;
+padding-left: 245px;
+justify-content: space-between;
+}
+.header__container{
+display: flex;
+justify-content: space-between;
+}
+.nav__menu{
+display: flex;
+align-items: center;
+padding-right: 245px;
+gap: 25px;
+}
+.header__bottom{
+background: url(../images/Header.png) ;
+height: 700px;
+}
+.header__nav{
+   display: flex;
+padding-top: 38px;
+justify-content: center;
+}
+.header__air{
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+.header__btn{
+display: flex;
+justify-content: center;
+padding-top: 204px;
+}
+.header__title{
+    background: #FFFFFF;
+    border-radius: 10px;
+display: flex;
+justify-content: center;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+font-family: 'Montserrat';
+color: #171718;
+width: 200px;
+padding: 13px;
+padding-right: 41px;
+padding-left: 13px;
+
+}
+.container{
+background: #151515;
+
+
+}
+.text{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+width: 538px;
+padding-top: 63px;
+}
+.container__item{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.container__title{
+padding-top: 30px;
+
+}
+.container__menu{
+display: flex;
+justify-content: center;
+gap: 87px;
+}
+.texts{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+width: 540px;
+padding-top: 200px;
+}
+.container__nav{
+padding-top: 50px;
+
+}
+.container__product{
+    display: flex;
+justify-content: center;
+}
+.product{
+display: flex;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+font-family: 'Montserrat';
+color: #FFFFFF;
+width: 450px;
+padding-top: 190px;
+}
+.product::after{
+content: url(../images/after.png);
+padding-right: 13px;
+padding-left: 14px;
+padding-top: 43px;
+}
+.container__img{
+padding-top: 50px;
+}
+.products{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+width: 420px;
+padding-top: 180px;
+display: flex;
+
+}
+.products::before{
+    content: url(../images/before.png);
+    padding-right: 13px;
+padding-left: 14px;
+padding-top: 53px;
+
+}
+.container__new{
+display: flex;
+justify-content: center;
+gap: 30px;
+padding-top: 79px;
+padding-bottom: 50px;
+}
+.container__iphone{
+    background: #FFFFFF;
+    border-radius: 6px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 40px;
+padding-right: 40px;
+}
+.iphone{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat';
+    color: #000000;
+    display: flex;
+justify-content: center;
+padding-bottom: 10px;
+}
+.app{
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;  
+    color: #000000;
+padding-bottom: 20px;
+padding-top: 10px;
+display: flex;
+justify-content: center;
+}
+.narx{
+    background: #151515;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+padding: 7px 57px ;
+display: flex;
+justify-content: center;
+}
+.container__phone{
+padding-left: 25px;
+
+}
+.container__phones{
+padding-left: 20px;
+}
+.footer__container{
+background: #282828;
+padding: 81px ;
+padding-left: 230px;
+display: flex;
+justify-content: space-between;
+
+}
+.footer__link{
+list-style: none;
+display: flex;
+}
+.footer__list{
+list-style: none;
+display: flex;
+gap: 30px;
+padding-left: 320px;
+}
+.footer__menu{
+display: flex;
+gap: 30px;
+padding-right: 150px;
+
+}
+.footer__item{
+display: flex;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+font-family: 'Montserrat';
+color: #FFFFFF;
+padding-top: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
